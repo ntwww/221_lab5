@@ -29,11 +29,17 @@ int main()
         }
         printf("\n");
     }
-    /*for(i=0;<x+1;i++)
+    for(i=0;i<x+1;i++)
     {
-        for(j=0;j<=;j++)
+        for(j=0;j<=n;j++)
         {
-
+                if(j==(n/2)-i||j==(n/2)+i)
+            {
+                printf("*");
+            }
+                else
+                printf("_");
         }
-    }*/
+        printf()
+    }
 }
